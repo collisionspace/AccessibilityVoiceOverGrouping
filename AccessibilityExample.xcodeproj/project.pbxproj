@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		069F0D6526D8B23500F9524E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D6426D8B23500F9524E /* AppDelegate.swift */; };
 		069F0D6726D8B23500F9524E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D6626D8B23500F9524E /* SceneDelegate.swift */; };
-		069F0D6926D8B23500F9524E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D6826D8B23500F9524E /* ViewController.swift */; };
-		069F0D6C26D8B23500F9524E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069F0D6A26D8B23500F9524E /* Main.storyboard */; };
 		069F0D6E26D8B23700F9524E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069F0D6D26D8B23700F9524E /* Assets.xcassets */; };
 		069F0D7126D8B23700F9524E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069F0D6F26D8B23700F9524E /* LaunchScreen.storyboard */; };
 		069F0D7C26D8B23700F9524E /* AccessibilityExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D7B26D8B23700F9524E /* AccessibilityExampleTests.swift */; };
 		069F0D8726D8B23700F9524E /* AccessibilityExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D8626D8B23700F9524E /* AccessibilityExampleUITests.swift */; };
+		069F0D9526D8B2ED00F9524E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D9426D8B2ED00F9524E /* MainViewController.swift */; };
+		069F0D9826D8B81100F9524E /* AccessibilityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D9726D8B81100F9524E /* AccessibilityModel.swift */; };
+		069F0D9A26D8B82F00F9524E /* CarouselAccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D9926D8B82F00F9524E /* CarouselAccessibilityView.swift */; };
+		069F0D9C26D8B84600F9524E /* CarouselAccessibilityContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D9B26D8B84600F9524E /* CarouselAccessibilityContainerView.swift */; };
+		069F0D9E26D8B86400F9524E /* CarouselAccessibilityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D9D26D8B86400F9524E /* CarouselAccessibilityElement.swift */; };
+		069F0DA026D8B87A00F9524E /* AccessibilityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0D9F26D8B87A00F9524E /* AccessibilityType.swift */; };
+		069F0DA226D8B8CE00F9524E /* CapNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0DA126D8B8CE00F9524E /* CapNumber.swift */; };
+		069F0DA526D8F53C00F9524E /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0DA426D8F53C00F9524E /* People.swift */; };
+		069F0DA826D8F55C00F9524E /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0DA726D8F55C00F9524E /* PeopleViewModel.swift */; };
+		069F0DAB26D8F57E00F9524E /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0DAA26D8F57E00F9524E /* PeopleCollectionViewCell.swift */; };
+		069F0DAE26D8FD9200F9524E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0DAD26D8FD9200F9524E /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +47,6 @@
 		069F0D6126D8B23500F9524E /* AccessibilityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessibilityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069F0D6426D8B23500F9524E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		069F0D6626D8B23500F9524E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		069F0D6826D8B23500F9524E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		069F0D6B26D8B23500F9524E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		069F0D6D26D8B23700F9524E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		069F0D7026D8B23700F9524E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069F0D7226D8B23700F9524E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		069F0D8226D8B23700F9524E /* AccessibilityExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessibilityExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		069F0D8626D8B23700F9524E /* AccessibilityExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityExampleUITests.swift; sourceTree = "<group>"; };
 		069F0D8826D8B23700F9524E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		069F0D9426D8B2ED00F9524E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		069F0D9726D8B81100F9524E /* AccessibilityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityModel.swift; sourceTree = "<group>"; };
+		069F0D9926D8B82F00F9524E /* CarouselAccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselAccessibilityView.swift; sourceTree = "<group>"; };
+		069F0D9B26D8B84600F9524E /* CarouselAccessibilityContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselAccessibilityContainerView.swift; sourceTree = "<group>"; };
+		069F0D9D26D8B86400F9524E /* CarouselAccessibilityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselAccessibilityElement.swift; sourceTree = "<group>"; };
+		069F0D9F26D8B87A00F9524E /* AccessibilityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityType.swift; sourceTree = "<group>"; };
+		069F0DA126D8B8CE00F9524E /* CapNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapNumber.swift; sourceTree = "<group>"; };
+		069F0DA426D8F53C00F9524E /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		069F0DA726D8F55C00F9524E /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		069F0DAA26D8F57E00F9524E /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
+		069F0DAD26D8FD9200F9524E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +119,12 @@
 			children = (
 				069F0D6426D8B23500F9524E /* AppDelegate.swift */,
 				069F0D6626D8B23500F9524E /* SceneDelegate.swift */,
-				069F0D6826D8B23500F9524E /* ViewController.swift */,
-				069F0D6A26D8B23500F9524E /* Main.storyboard */,
+				069F0D9426D8B2ED00F9524E /* MainViewController.swift */,
+				069F0DAC26D8F59800F9524E /* Collection View Cells */,
+				069F0DA926D8F56D00F9524E /* Util */,
+				069F0DA626D8F55600F9524E /* View Model */,
+				069F0DA326D8F53000F9524E /* Model */,
+				069F0D9626D8B7FD00F9524E /* Accessibility */,
 				069F0D6D26D8B23700F9524E /* Assets.xcassets */,
 				069F0D6F26D8B23700F9524E /* LaunchScreen.storyboard */,
 				069F0D7226D8B23700F9524E /* Info.plist */,
@@ -126,6 +148,51 @@
 				069F0D8826D8B23700F9524E /* Info.plist */,
 			);
 			path = AccessibilityExampleUITests;
+			sourceTree = "<group>";
+		};
+		069F0D9626D8B7FD00F9524E /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				069F0D9726D8B81100F9524E /* AccessibilityModel.swift */,
+				069F0D9926D8B82F00F9524E /* CarouselAccessibilityView.swift */,
+				069F0D9B26D8B84600F9524E /* CarouselAccessibilityContainerView.swift */,
+				069F0D9D26D8B86400F9524E /* CarouselAccessibilityElement.swift */,
+				069F0D9F26D8B87A00F9524E /* AccessibilityType.swift */,
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
+		069F0DA326D8F53000F9524E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				069F0DA426D8F53C00F9524E /* People.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		069F0DA626D8F55600F9524E /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				069F0DA726D8F55C00F9524E /* PeopleViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		069F0DA926D8F56D00F9524E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				069F0DA126D8B8CE00F9524E /* CapNumber.swift */,
+				069F0DAD26D8FD9200F9524E /* UIView+Extensions.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		069F0DAC26D8F59800F9524E /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				069F0DAA26D8F57E00F9524E /* PeopleCollectionViewCell.swift */,
+			);
+			path = "Collection View Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +300,6 @@
 			files = (
 				069F0D7126D8B23700F9524E /* LaunchScreen.storyboard in Resources */,
 				069F0D6E26D8B23700F9524E /* Assets.xcassets in Resources */,
-				069F0D6C26D8B23500F9524E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +324,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				069F0D6926D8B23500F9524E /* ViewController.swift in Sources */,
+				069F0DA826D8F55C00F9524E /* PeopleViewModel.swift in Sources */,
+				069F0D9E26D8B86400F9524E /* CarouselAccessibilityElement.swift in Sources */,
+				069F0D9826D8B81100F9524E /* AccessibilityModel.swift in Sources */,
+				069F0D9C26D8B84600F9524E /* CarouselAccessibilityContainerView.swift in Sources */,
 				069F0D6526D8B23500F9524E /* AppDelegate.swift in Sources */,
+				069F0DAE26D8FD9200F9524E /* UIView+Extensions.swift in Sources */,
+				069F0DAB26D8F57E00F9524E /* PeopleCollectionViewCell.swift in Sources */,
+				069F0DA526D8F53C00F9524E /* People.swift in Sources */,
+				069F0DA026D8B87A00F9524E /* AccessibilityType.swift in Sources */,
+				069F0D9A26D8B82F00F9524E /* CarouselAccessibilityView.swift in Sources */,
 				069F0D6726D8B23500F9524E /* SceneDelegate.swift in Sources */,
+				069F0D9526D8B2ED00F9524E /* MainViewController.swift in Sources */,
+				069F0DA226D8B8CE00F9524E /* CapNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +372,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		069F0D6A26D8B23500F9524E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				069F0D6B26D8B23500F9524E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		069F0D6F26D8B23700F9524E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +505,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2BAU8X47B;
 				INFOPLIST_FILE = AccessibilityExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2BAU8X47B;
 				INFOPLIST_FILE = AccessibilityExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
